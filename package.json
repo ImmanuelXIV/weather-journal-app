@@ -1,0 +1,26 @@
+{
+  "name": "weather-journal-app",
+  "version": "1.0.0",
+  "description": "This project creates an asynchronous web app that uses a weather web API and input by the user to pass data between client and server-side and dynamically update the UI of the page. Check it out if you want to learn more about setting up a local server, writing GET and POST server and client-side code, and how to use data from an API and from user input to change the content of a web page. Enjoy!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ImmanuelXIV/weather-journal-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ImmanuelXIV/weather-journal-app/issues"
+  },
+  "homepage": "https://github.com/ImmanuelXIV/weather-journal-app#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
